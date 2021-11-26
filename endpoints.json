@@ -1,0 +1,28 @@
+[
+    {
+        "path": "/api/auth/login",
+        "file": "auth/login.php",
+        "oauth": false,
+        "method": "POST",
+        "parameters": [
+            "email",
+            "password"
+        ]
+    },
+    {
+        "path": "/api/auth/register",
+        "file": "auth/register.php",
+        "oauth": false,
+        "method": "POST",
+        "parameters": [
+            "email",
+            "password"
+        ]
+    },
+    {
+        "path": "/api/users/@me",
+        "file": "users/@me.php",
+        "oauth": true,
+        "method": "GET"
+    }
+]
